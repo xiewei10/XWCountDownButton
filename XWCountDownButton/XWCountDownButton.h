@@ -12,6 +12,14 @@ typedef void(^countDownProgress)(NSInteger  second);
 
 typedef void(^complet)(void);
 
+typedef enum {
+    animationTypeWave,
+    animationTypeCirecle
+    
+}animationType;
+
+
+
 /**
  *  倒计时的按钮 在XIB,SB,或者是在代码中创建Button的时候,Button的样式要设置成为 Custom 样式,否则在倒计时过程中 Button 的Tittle 会闪动.
  */
@@ -46,7 +54,7 @@ typedef void(^complet)(void);
 /**
  *  开始倒计时
  */
-- (void)startCountDown;
+- (void)startCountDownWithType:(animationType)type;
 
 
 
