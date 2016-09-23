@@ -15,6 +15,7 @@
 		5D408A521D94E042008C70CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D408A501D94E042008C70CD /* LaunchScreen.storyboard */; };
 		5D408A5D1D94E042008C70CD /* XWCountDownButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D408A5C1D94E042008C70CD /* XWCountDownButtonTests.m */; };
 		5D408A681D94E042008C70CD /* XWCountDownButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D408A671D94E042008C70CD /* XWCountDownButtonUITests.m */; };
+		5D408A771D94E059008C70CD /* XWCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D408A761D94E059008C70CD /* XWCountDownButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5D408A631D94E042008C70CD /* XWCountDownButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XWCountDownButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D408A671D94E042008C70CD /* XWCountDownButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWCountDownButtonUITests.m; sourceTree = "<group>"; };
 		5D408A691D94E042008C70CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D408A751D94E059008C70CD /* XWCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCountDownButton.h; sourceTree = "<group>"; };
+		5D408A761D94E059008C70CD /* XWCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCountDownButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		5D408A411D94E042008C70CD /* XWCountDownButton */ = {
 			isa = PBXGroup;
 			children = (
+				5D408A781D94FDED008C70CD /* countDownBtn */,
 				5D408A451D94E042008C70CD /* AppDelegate.h */,
 				5D408A461D94E042008C70CD /* AppDelegate.m */,
 				5D408A481D94E042008C70CD /* ViewController.h */,
@@ -138,6 +142,15 @@
 				5D408A691D94E042008C70CD /* Info.plist */,
 			);
 			path = XWCountDownButtonUITests;
+			sourceTree = "<group>";
+		};
+		5D408A781D94FDED008C70CD /* countDownBtn */ = {
+			isa = PBXGroup;
+			children = (
+				5D408A751D94E059008C70CD /* XWCountDownButton.h */,
+				5D408A761D94E059008C70CD /* XWCountDownButton.m */,
+			);
+			name = countDownBtn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				5D408A4A1D94E042008C70CD /* ViewController.m in Sources */,
 				5D408A471D94E042008C70CD /* AppDelegate.m in Sources */,
+				5D408A771D94E059008C70CD /* XWCountDownButton.m in Sources */,
 				5D408A441D94E042008C70CD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
