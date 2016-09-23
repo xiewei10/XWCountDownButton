@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D408A441D94E042008C70CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D408A431D94E042008C70CD /* main.m */; };
+		5D408A471D94E042008C70CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D408A461D94E042008C70CD /* AppDelegate.m */; };
+		5D408A4A1D94E042008C70CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D408A491D94E042008C70CD /* ViewController.m */; };
+		5D408A4D1D94E042008C70CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D408A4B1D94E042008C70CD /* Main.storyboard */; };
+		5D408A4F1D94E042008C70CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D408A4E1D94E042008C70CD /* Assets.xcassets */; };
+		5D408A521D94E042008C70CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D408A501D94E042008C70CD /* LaunchScreen.storyboard */; };
+		5D408A5D1D94E042008C70CD /* XWCountDownButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D408A5C1D94E042008C70CD /* XWCountDownButtonTests.m */; };
+		5D408A681D94E042008C70CD /* XWCountDownButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D408A671D94E042008C70CD /* XWCountDownButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D408A591D94E042008C70CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D408A371D94E042008C70CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D408A3E1D94E042008C70CD;
+			remoteInfo = XWCountDownButton;
+		};
+		5D408A641D94E042008C70CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D408A371D94E042008C70CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D408A3E1D94E042008C70CD;
+			remoteInfo = XWCountDownButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D408A3F1D94E042008C70CD /* XWCountDownButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWCountDownButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D408A431D94E042008C70CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D408A451D94E042008C70CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D408A461D94E042008C70CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D408A481D94E042008C70CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D408A491D94E042008C70CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D408A4C1D94E042008C70CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D408A4E1D94E042008C70CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D408A511D94E042008C70CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D408A531D94E042008C70CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D408A581D94E042008C70CD /* XWCountDownButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XWCountDownButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D408A5C1D94E042008C70CD /* XWCountDownButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWCountDownButtonTests.m; sourceTree = "<group>"; };
+		5D408A5E1D94E042008C70CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D408A631D94E042008C70CD /* XWCountDownButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XWCountDownButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D408A671D94E042008C70CD /* XWCountDownButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWCountDownButtonUITests.m; sourceTree = "<group>"; };
+		5D408A691D94E042008C70CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D408A3C1D94E042008C70CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D408A551D94E042008C70CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D408A601D94E042008C70CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D408A361D94E042008C70CD = {
+			isa = PBXGroup;
+			children = (
+				5D408A411D94E042008C70CD /* XWCountDownButton */,
+				5D408A5B1D94E042008C70CD /* XWCountDownButtonTests */,
+				5D408A661D94E042008C70CD /* XWCountDownButtonUITests */,
+				5D408A401D94E042008C70CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D408A401D94E042008C70CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D408A3F1D94E042008C70CD /* XWCountDownButton.app */,
+				5D408A581D94E042008C70CD /* XWCountDownButtonTests.xctest */,
+				5D408A631D94E042008C70CD /* XWCountDownButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D408A411D94E042008C70CD /* XWCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				5D408A451D94E042008C70CD /* AppDelegate.h */,
+				5D408A461D94E042008C70CD /* AppDelegate.m */,
+				5D408A481D94E042008C70CD /* ViewController.h */,
+				5D408A491D94E042008C70CD /* ViewController.m */,
+				5D408A4B1D94E042008C70CD /* Main.storyboard */,
+				5D408A4E1D94E042008C70CD /* Assets.xcassets */,
+				5D408A501D94E042008C70CD /* LaunchScreen.storyboard */,
+				5D408A531D94E042008C70CD /* Info.plist */,
+				5D408A421D94E042008C70CD /* Supporting Files */,
+			);
+			path = XWCountDownButton;
+			sourceTree = "<group>";
+		};
+		5D408A421D94E042008C70CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D408A431D94E042008C70CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D408A5B1D94E042008C70CD /* XWCountDownButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D408A5C1D94E042008C70CD /* XWCountDownButtonTests.m */,
+				5D408A5E1D94E042008C70CD /* Info.plist */,
+			);
+			path = XWCountDownButtonTests;
+			sourceTree = "<group>";
+		};
+		5D408A661D94E042008C70CD /* XWCountDownButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D408A671D94E042008C70CD /* XWCountDownButtonUITests.m */,
+				5D408A691D94E042008C70CD /* Info.plist */,
+			);
+			path = XWCountDownButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D408A3E1D94E042008C70CD /* XWCountDownButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D408A6C1D94E042008C70CD /* Build configuration list for PBXNativeTarget "XWCountDownButton" */;
+			buildPhases = (
+				5D408A3B1D94E042008C70CD /* Sources */,
+				5D408A3C1D94E042008C70CD /* Frameworks */,
+				5D408A3D1D94E042008C70CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XWCountDownButton;
+			productName = XWCountDownButton;
+			productReference = 5D408A3F1D94E042008C70CD /* XWCountDownButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D408A571D94E042008C70CD /* XWCountDownButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D408A6F1D94E042008C70CD /* Build configuration list for PBXNativeTarget "XWCountDownButtonTests" */;
+			buildPhases = (
+				5D408A541D94E042008C70CD /* Sources */,
+				5D408A551D94E042008C70CD /* Frameworks */,
+				5D408A561D94E042008C70CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D408A5A1D94E042008C70CD /* PBXTargetDependency */,
+			);
+			name = XWCountDownButtonTests;
+			productName = XWCountDownButtonTests;
+			productReference = 5D408A581D94E042008C70CD /* XWCountDownButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D408A621D94E042008C70CD /* XWCountDownButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D408A721D94E042008C70CD /* Build configuration list for PBXNativeTarget "XWCountDownButtonUITests" */;
+			buildPhases = (
+				5D408A5F1D94E042008C70CD /* Sources */,
+				5D408A601D94E042008C70CD /* Frameworks */,
+				5D408A611D94E042008C70CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D408A651D94E042008C70CD /* PBXTargetDependency */,
+			);
+			name = XWCountDownButtonUITests;
+			productName = XWCountDownButtonUITests;
+			productReference = 5D408A631D94E042008C70CD /* XWCountDownButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D408A371D94E042008C70CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "成都卓牛科技";
+				TargetAttributes = {
+					5D408A3E1D94E042008C70CD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5D408A571D94E042008C70CD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5D408A3E1D94E042008C70CD;
+					};
+					5D408A621D94E042008C70CD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5D408A3E1D94E042008C70CD;
+					};
+				};
+			};
+			buildConfigurationList = 5D408A3A1D94E042008C70CD /* Build configuration list for PBXProject "XWCountDownButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D408A361D94E042008C70CD;
+			productRefGroup = 5D408A401D94E042008C70CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D408A3E1D94E042008C70CD /* XWCountDownButton */,
+				5D408A571D94E042008C70CD /* XWCountDownButtonTests */,
+				5D408A621D94E042008C70CD /* XWCountDownButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D408A3D1D94E042008C70CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D408A521D94E042008C70CD /* LaunchScreen.storyboard in Resources */,
+				5D408A4F1D94E042008C70CD /* Assets.xcassets in Resources */,
+				5D408A4D1D94E042008C70CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D408A561D94E042008C70CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D408A611D94E042008C70CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D408A3B1D94E042008C70CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D408A4A1D94E042008C70CD /* ViewController.m in Sources */,
+				5D408A471D94E042008C70CD /* AppDelegate.m in Sources */,
+				5D408A441D94E042008C70CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D408A541D94E042008C70CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D408A5D1D94E042008C70CD /* XWCountDownButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D408A5F1D94E042008C70CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D408A681D94E042008C70CD /* XWCountDownButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D408A5A1D94E042008C70CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D408A3E1D94E042008C70CD /* XWCountDownButton */;
+			targetProxy = 5D408A591D94E042008C70CD /* PBXContainerItemProxy */;
+		};
+		5D408A651D94E042008C70CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D408A3E1D94E042008C70CD /* XWCountDownButton */;
+			targetProxy = 5D408A641D94E042008C70CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D408A4B1D94E042008C70CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D408A4C1D94E042008C70CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D408A501D94E042008C70CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D408A511D94E042008C70CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D408A6A1D94E042008C70CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D408A6B1D94E042008C70CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D408A6D1D94E042008C70CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XWCountDownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LS.com.XWCountDownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D408A6E1D94E042008C70CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XWCountDownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LS.com.XWCountDownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D408A701D94E042008C70CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XWCountDownButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LS.com.XWCountDownButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XWCountDownButton.app/XWCountDownButton";
+			};
+			name = Debug;
+		};
+		5D408A711D94E042008C70CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XWCountDownButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LS.com.XWCountDownButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XWCountDownButton.app/XWCountDownButton";
+			};
+			name = Release;
+		};
+		5D408A731D94E042008C70CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XWCountDownButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LS.com.XWCountDownButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XWCountDownButton;
+			};
+			name = Debug;
+		};
+		5D408A741D94E042008C70CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XWCountDownButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LS.com.XWCountDownButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XWCountDownButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D408A3A1D94E042008C70CD /* Build configuration list for PBXProject "XWCountDownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D408A6A1D94E042008C70CD /* Debug */,
+				5D408A6B1D94E042008C70CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D408A6C1D94E042008C70CD /* Build configuration list for PBXNativeTarget "XWCountDownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D408A6D1D94E042008C70CD /* Debug */,
+				5D408A6E1D94E042008C70CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D408A6F1D94E042008C70CD /* Build configuration list for PBXNativeTarget "XWCountDownButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D408A701D94E042008C70CD /* Debug */,
+				5D408A711D94E042008C70CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D408A721D94E042008C70CD /* Build configuration list for PBXNativeTarget "XWCountDownButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D408A731D94E042008C70CD /* Debug */,
+				5D408A741D94E042008C70CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D408A371D94E042008C70CD /* Project object */;
+}
